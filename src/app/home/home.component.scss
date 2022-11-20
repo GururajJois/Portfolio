@@ -1,0 +1,65 @@
+.bgimage {
+    height:100vh;
+    background: url('https://www.whatsappimages.in/wp-content/uploads/2021/07/Top-HD-sad-quotes-for-whatsapp-status-in-hindi-Pics-Images-Download-Free.gif');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    padding-top: 15px;
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.button-1{
+    justify-content:center;
+  align-items:center;
+  display:flex;
+
+}
+
+button{
+    border:none;
+    background-color:offwhite;
+    font-size:30px;
+    padding:20px 40px;
+    text-transform:capitalize;
+    cursor:pointer;
+    transform:all 0.3s;
+    position:relative;
+  }
+  button:before{
+    content:"";
+    position :absolute;
+    width:24px;
+    height:24px;
+    top:-5px;
+      left:-5px;
+    border-top:2px solid tomato;
+    border-left:2px solid tomato;
+    transition:all 0.25s;
+  }
+  button:hover:before ,button:hover:after{
+    width:104%;
+    height:110%;
+  }
+  button:after{
+    content:"";
+    position :absolute;
+    width:24px;
+    height:24px;
+    bottom:-5px;
+      right:-5px;
+    border-bottom:2px solid tomato;
+    border-right:2px solid tomato;
+    transition:all 0.30s;
+  }
